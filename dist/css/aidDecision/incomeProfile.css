@@ -1,0 +1,20 @@
+.box1 {
+  width: 100%;
+}
+.box1 #chart1 {
+  height: 470px;
+}
+.box3,
+.box5 {
+  margin-top: 12px;
+  width: calc(50% - 6px);
+}
+.box2,
+.box4 {
+  margin-right: 12px;
+  margin-top: 12px;
+  width: calc(50% - 6px);
+}
+.chartCon {
+  height: 370px;
+}

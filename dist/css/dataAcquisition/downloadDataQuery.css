@@ -1,0 +1,71 @@
+.cont_box {
+  width: 100%;
+  overflow-x: auto;
+}
+.cont_box .inputs {
+  height: 42px;
+  line-height: 42px;
+}
+.cont_box .inputs span {
+  display: inline-block;
+  float: left;
+  width: 82px;
+}
+.cont_box .inputs span.w38 {
+  width: 38px;
+  text-align: center;
+}
+.cont_box .inputs span.lsp1 {
+  letter-spacing: 26px;
+}
+.cont_box .inputs span.lsp2 {
+  letter-spacing: 7px;
+}
+.cont_box .inputs .select_box {
+  margin-top: 6px;
+}
+.cont_box .inputs .select_box.big {
+  margin-right: 110px;
+}
+.cont_box .inputs .select_box.big .sel_show {
+  width: 200px;
+}
+.cont_box .inputs .select_box.small {
+  margin-right: 34px;
+}
+.cont_box .inputs .select_box.small .sel_show {
+  width: 71px;
+}
+.cont_box .inputs input[type="text"] {
+  border: 1px solid #D2D2D2;
+  border-radius: 6px;
+  height: 28px;
+  display: block;
+  float: left;
+  margin-top: 6px;
+  outline: none;
+  text-indent: 10px;
+}
+.cont_box .inputs input[type="text"].small {
+  width: 98px;
+}
+.cont_box .inputs input[type="text"].small.w95 {
+  width: 95px;
+}
+.cont_box .inputs input[type="text"].mgr {
+  margin-right: 110px;
+}
+.cont_box .inputs input[type="text"].big {
+  width: 314px;
+}
+.cont_box .inputs button {
+  float: left;
+  margin-top: 6px;
+  margin-left: 80px;
+}
+.cont_box .mytable {
+  margin-top: 35px;
+}
+.cont_box .mytable .mycheck {
+  top: 5px;
+}

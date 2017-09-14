@@ -1,0 +1,278 @@
+html {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+html body {
+  width: 100%;
+  height: 100%;
+}
+html body .login_header {
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+}
+html body .login_header .login_logo {
+  float: left;
+  margin: 17px 15px 0 120px;
+  width: 46px;
+  height: 46px;
+  background: url(../images/login_logo.png) no-repeat;
+}
+html body .login_header span {
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  color: #026ad2;
+}
+html body .login_banner {
+  width: 100%;
+  height: 57%;
+  position: relative;
+  background: linear-gradient(to right, #025ccc, #0288de);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#025ccc, endColorstr=#0288de);
+}
+html body .login_banner .login_banner_left {
+  width: 40%;
+  height: 80%;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  background: url(../images/login-bg.png) no-repeat;
+  background-size: 100% 100%;
+}
+html body .login_banner .login_banner_right {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  right: 100px;
+  top: 8%;
+  background: #fff;
+  border-radius: 5px;
+}
+html body .login_banner .login_banner_right .login_box_title {
+  height: 44px;
+  line-height: 44px;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 22px;
+  background: linear-gradient(to right, #006ef5, #01c3da);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#006ef5, endColorstr=#01c3da);
+  border-radius: 5px 5px 0 0;
+}
+html body .login_banner .login_banner_right .login_box_con {
+  padding: 20px 30px ;
+  border-radius: 0 0 5px 5px;
+}
+html body .login_banner .login_banner_right .login_box_con .login_username {
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+}
+html body .login_banner .login_banner_right .login_box_con .login_username .login_username-icon {
+  width: 15%;
+  float: left;
+  text-align: center;
+  color: #6f6f6f;
+}
+html body .login_banner .login_banner_right .login_box_con .login_username .login_username-icon i.iconfont {
+  font-size: 20px;
+}
+html body .login_banner .login_banner_right .login_box_con .login_username input {
+  width: 84%;
+  height: 30px;
+  border: none;
+  outline: medium;
+  color: #6f6f6f;
+}
+html body .login_banner .login_banner_right .login_box_con .login_password {
+  margin-top: 20px;
+}
+html body .login_banner .login_banner_right .login_box_con .login_box_tip {
+  margin-top: 8%;
+}
+html body .login_banner .login_banner_right .login_box_con .login_box_tip .login_box_tip_left {
+  float: left;
+}
+html body .login_banner .login_banner_right .login_box_con .login_box_tip .login_box_tip_left .mycheck {
+  top: 3px;
+  margin-right: 5px;
+}
+html body .login_banner .login_banner_right .login_box_con .login_box_tip .login_box_tip_left span {
+  color: #616161;
+}
+html body .login_banner .login_banner_right .login_box_con .login_box_tip .login_box_tip_right {
+  float: right;
+  color: #ff5c00;
+}
+html body .login_banner .login_banner_right .login_box_con .login_btn {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #5db0ff, #6484f7);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#5db0ff, endColorstr=#6484f7);
+}
+html body .login_footer .login_footer_box {
+  width: 400px;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+html body .login_footer .login_footer_box .erweima {
+  float: left;
+  width: 80px;
+  height: 80px;
+  background: url(../images/erweima.jpg) no-repeat;
+}
+html body .login_footer .login_footer_box .footer_ifo {
+  float: left;
+  width: 77%;
+  margin-left: 10px;
+}
+html body .login_footer .login_footer_box .footer_ifo p {
+  width: 100%;
+  font-size: 12px;
+  color: #b3b5ba;
+  line-height: 20px;
+}
+@media screen and (min-width: 1400px) {
+  html {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
+  html body {
+    width: 100%;
+    height: 100%;
+  }
+  html body .login_header {
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+  }
+  html body .login_header .login_logo {
+    float: left;
+    margin: 27px 15px 0 120px;
+    width: 46px;
+    height: 46px;
+    background: url(../images/login_logo.png) no-repeat;
+  }
+  html body .login_header span {
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    color: #026ad2;
+  }
+  html body .login_banner {
+    width: 100%;
+    height: 530px;
+    position: relative;
+    background: linear-gradient(to right, #025ccc, #0288de);
+  }
+  html body .login_banner .login_banner_left {
+    width: 750px;
+    height: 393px;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    background: url(../images/login-bg.png) no-repeat;
+    background-size: 100% 100%;
+  }
+  html body .login_banner .login_banner_right {
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    right: 100px;
+    top: 85px;
+    background: #fff;
+    border-radius: 5px;
+  }
+  html body .login_banner .login_banner_right .login_box_title {
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 22px;
+    background: linear-gradient(to right, #006ef5, #01c3da);
+    border-radius: 5px 5px 0 0;
+  }
+  html body .login_banner .login_banner_right .login_box_con {
+    padding: 30px ;
+    border-radius: 0 0 5px 5px;
+  }
+  html body .login_banner .login_banner_right .login_box_con .login_username {
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+  }
+  html body .login_banner .login_banner_right .login_box_con .login_username .login_username-icon {
+    width: 15%;
+    float: left;
+    text-align: center;
+    color: #6f6f6f;
+  }
+  html body .login_banner .login_banner_right .login_box_con .login_username .login_username-icon i.iconfont {
+    font-size: 20px;
+  }
+  html body .login_banner .login_banner_right .login_box_con .login_username input {
+    width: 84%;
+    height: 38px;
+    border: none;
+    outline: medium;
+    color: #6f6f6f;
+    font-size: 16px;
+  }
+  html body .login_banner .login_banner_right .login_box_con .login_password {
+    margin-top: 20px;
+  }
+  html body .login_banner .login_banner_right .login_box_con .login_box_tip {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  html body .login_banner .login_banner_right .login_box_con .login_box_tip .login_box_tip_left {
+    float: left;
+  }
+  html body .login_banner .login_banner_right .login_box_con .login_box_tip .login_box_tip_left .mycheck {
+    top: 3px;
+    margin-right: 5px;
+  }
+  html body .login_banner .login_banner_right .login_box_con .login_box_tip .login_box_tip_left span {
+    color: #616161;
+  }
+  html body .login_banner .login_banner_right .login_box_con .login_box_tip .login_box_tip_right {
+    float: right;
+    color: #ff5c00;
+  }
+  html body .login_banner .login_banner_right .login_box_con .login_btn {
+    background: #5db0ff;
+  }
+  html body .login_footer .login_footer_box {
+    width: 500px;
+    height: 80px;
+    margin: 100px auto;
+  }
+  html body .login_footer .login_footer_box .erweima {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background: url(../images/erweima.jpg) no-repeat;
+  }
+  html body .login_footer .login_footer_box .footer_ifo {
+    float: left;
+    width: 82%;
+    margin-left: 10px;
+  }
+  html body .login_footer .login_footer_box .footer_ifo p {
+    width: 100%;
+    font-size: 14px;
+    color: #b3b5ba;
+    line-height: 20px;
+  }
+}

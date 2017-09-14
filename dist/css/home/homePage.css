@@ -1,0 +1,29 @@
+.box1 {
+  width: 100%;
+}
+.box1 #chart1 {
+  height: 565px;
+}
+.box3,
+.box5 {
+  margin-top: 12px;
+  width: calc(50% - 6px);
+}
+.box2,
+.box4 {
+  margin-right: 12px;
+  margin-top: 12px;
+  width: calc(50% - 6px);
+}
+.chartCon {
+  height: 387px;
+}
+.liquidfill {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+}
+.liquidfill_chanrt {
+  width: 100%;
+  height: 100%;
+}

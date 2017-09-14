@@ -1,0 +1,34 @@
+.box1 {
+  width: 100%;
+}
+.box1 #chart1 {
+  height: 460px;
+}
+.box2 {
+  width: 100%;
+  margin-top: 12px;
+}
+.box2 #chart2 {
+  height: 520px;
+}
+#date-slider,
+#date-slider2 {
+  width: 80%;
+  border-radius: 20px;
+  margin: 0px auto 30px;
+}
+.box {
+  overflow: hidden;
+}
+.chart1 {
+  width: 50%;
+  float: left;
+}
+.chart1height {
+  width: 100%;
+  height: 300px;
+}
+.white {
+  top: 0;
+  left: 300px;
+}

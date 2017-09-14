@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>企业监测</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/enterpriseMonitor/companyProfile.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-box"><a class="header-left" href="../home/homePage.html"><i class="logo"></i><span>涉税大数据平台</span></a>
+            <div class="header-right">
+                <div class="user-info"><i class="user-logo iconfont">&#xe6df;</i><span class="user-name">Admin</span><span class="user-time">2017-08-08 08:00</span></div>
+                <div class="person-set"><i class="person-set-logo iconfont">&#xe66b;</i><span class="person-set-tit">个人设置</span></div><a class="exit" href="../login/login.html">退出</a>
+            </div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-list cf">
+            <li>
+                <div class="shadow"></div><a href="../home/homePage.html"><i class="index"></i><span>首页</span></a>
+            </li>
+            <li>
+                <div class="shadow"></div><a href="../dataAcquisition/acquisitionModule.html"><i class="data-acquisition"></i><span>数据采集</span></a>
+            </li>
+            <li>
+                <div class="shadow"></div><a href="../enterpriseMonitor/companyProfile.html"><i class="enterprise-monitoring"></i><span>企业监测</span></a>
+            </li>
+            <!--li-->
+            <!--	.shadow-->
+            <!--	a(href='')-->
+            <!--		i.risk-warning-->
+            <!--		span 风险预警-->
+            <li>
+                <div class="shadow"></div><a href="../aidDecision/incomeProfile.html"><i class="aid-decision-making"></i><span>辅助决策</span></a>
+            </li>
+            <!--li-->
+            <!--	.shadow-->
+            <!--	a(href='/workflow/flow/loadFlowList')-->
+            <!--		i.enterprise-monitoring-->
+            <!--		span 工作流-->
+        </ul>
+    </div>
+    <div class="container-fluid">
+        <div class="content homecont">
+            <div class="box cf">
+                <div class="cont_box defconL">
+                    <div class="lefT">
+                        <div class="box_tit">
+                            <div class="bt_in">
+                                <p></p>
+                                <h3>条件选择</h3>
+                            </div>
+                        </div>
+                        <div class="ltCon">
+                            <div class="lineCon cf">
+                                <div class="spanCon fl">企业名称</div>
+                                <div class="inputCon fl">
+                                    <input type="text" placeholder="全部" name="comName">
+                                </div>
+                            </div>
+                            <div class="lineCon cf">
+                                <div class="spanCon fl">纳税人识别号</div>
+                                <div class="inputCon fl">
+                                    <input type="text" placeholder="全部" name="ideNumber">
+                                </div>
+                            </div>
+                            <div class="lineCon cf">
+                                <div class="spanCon fl">注册类型</div>
+                                <div class="inputCon fl">
+                                    <div class="select_box" id="selRegister">
+                                        <div class="sel_show"></div>
+                                        <div class="sel_btn"><i class="iconfont" onselectstart="return false">&#x3438;</i></div>
+                                        <ul></ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lineCon cf">
+                                <div class="spanCon fl">行业门类</div>
+                                <div class="inputCon fl">
+                                    <div class="select_box" id="selCategory">
+                                        <div class="sel_show"></div>
+                                        <div class="sel_btn"><i class="iconfont" onselectstart="return false">&#x3438;</i></div>
+                                        <ul></ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lineCon cf">
+                                <div class="spanCon fl">行业大类</div>
+                                <div class="inputCon fl">
+                                    <div class="select_box" id="selBig">
+                                        <div class="sel_show"></div>
+                                        <div class="sel_btn"><i class="iconfont" onselectstart="return false">&#x3438;</i></div>
+                                        <ul></ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lineCon cf">
+                                <div class="spanCon fl">行业小类</div>
+                                <div class="inputCon fl">
+                                    <div class="select_box" id="selSmall">
+                                        <div class="sel_show"></div>
+                                        <div class="sel_btn"><i class="iconfont" onselectstart="return false">&#x3438;</i></div>
+                                        <ul></ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lineCon cf">
+                                <div class="spanCon fl">入库年度</div>
+                                <div class="inputCon fl">
+                                    <input type="text" name="storageYear1" onfocus="WdatePicker({dateFmt:'yyyy'})">
+                                </div>
+                                <div class="spanLast fl">年</div>
+                            </div>
+                            <div class="lineCon cf">
+                                <div class="spanCon fl">入库金额<span class="smallSpan">(万元)</span></div>
+                                <div class="inputCon fl">
+                                    <input type="text" name="money">
+                                </div>
+                            </div>
+                            <div class="lineCon cf">
+                                <div class="spanCon fl">从</div>
+                                <div class="inputCon fl">
+                                    <input class="selY fl" id="star" type="text" name="selYear1" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd',maxDate:'#F{$dp.$D(\'end\')}'})">
+                                    <div class="lable">--</div>
+                                    <input class="selY fr" id="end" type="text" name="selYear2" onfocus="WdatePicker({dateFmt:'yyyy-MM-dd',minDate:'#F{$dp.$D(\'star\')}'})">
+                                </div>
+                            </div>
+                            <div class="lineCon cf">
+                                <div class="spanCon fl">界定年度</div>
+                                <div class="inputCon fl">
+                                    <input type="text" name="definitionYear" onfocus="WdatePicker({dateFmt:'yyyy'})">
+                                </div>
+                                <div class="spanLast fl">年</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lefB">
+                        <div class="box_tit">
+                            <div class="bt_in">
+                                <p></p>
+                                <h3>选择重点企业查询年度</h3>
+                            </div>
+                        </div>
+                        <div class="lbCon">
+                            <div class="lineCon cf">
+                                <div class="spanCon fl">入库年度</div>
+                                <div class="inputCon fl">
+                                    <input type="text" name="storageYear2" onfocus="WdatePicker({dateFmt:'yyyy'})">
+                                </div>
+                                <div class="spanLast fl">年</div>
+                            </div>
+                            <button class="orange query">查 询</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont_box defconR">
+                    <div class="mytable">
+                        <table>
+                            <tr>
+                                <th>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox0">
+                                        <label for="checkbox0"></label>
+                                    </div>
+                                </th>
+                                <th>序号</th>
+                                <th>纳税人识别号</th>
+                                <th>纳税人名称</th>
+                                <th>入库脱款</th>
+                                <th>界定标志</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox1">
+                                        <label for="checkbox1"></label>
+                                    </div>
+                                </td>
+                                <td>1</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox2">
+                                        <label for="checkbox2"></label>
+                                    </div>
+                                </td>
+                                <td>2</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox3">
+                                        <label for="checkbox3"></label>
+                                    </div>
+                                </td>
+                                <td>3</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox4">
+                                        <label for="checkbox4"></label>
+                                    </div>
+                                </td>
+                                <td>4</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox5">
+                                        <label for="checkbox5"></label>
+                                    </div>
+                                </td>
+                                <td>5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox6">
+                                        <label for="checkbox6"></label>
+                                    </div>
+                                </td>
+                                <td>6</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox7">
+                                        <label for="checkbox7"></label>
+                                    </div>
+                                </td>
+                                <td>7</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox8">
+                                        <label for="checkbox8"></label>
+                                    </div>
+                                </td>
+                                <td>8</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox9">
+                                        <label for="checkbox9"></label>
+                                    </div>
+                                </td>
+                                <td>9</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox10">
+                                        <label for="checkbox10"></label>
+                                    </div>
+                                </td>
+                                <td>10</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox11">
+                                        <label for="checkbox11"></label>
+                                    </div>
+                                </td>
+                                <td>11</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox12">
+                                        <label for="checkbox12"></label>
+                                    </div>
+                                </td>
+                                <td>12</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="mycheck">
+                                        <input type="checkbox" id="checkbox13">
+                                        <label for="checkbox13"></label>
+                                    </div>
+                                </td>
+                                <td>13</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="buttonLine marT17">
+                        <button class="blue marR17">界定</button>
+                        <button class="goBack white2">返回</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<div class="footer">
+    <p class="footer1">京ICP备00000000000号 版权所有 ***政府</p>
+    <p>Copyright 2016 by Jusfoun.com.All Right Reserved</p>
+</div>
+<script src="./../../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="./../../js/common.js"></script>
+<script src="./../../../libs/My97DatePicker/WdatePicker.js"></script>
+<script src="./../../js/enterpriseMonitor/keyEnterpriseDefinition.js"></script>
+
+</html>

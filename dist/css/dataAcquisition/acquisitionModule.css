@@ -1,0 +1,141 @@
+.tool_bar {
+  height: 56px;
+  line-height: 56px;
+  background: #c8d2dc;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.tool_bar button.tool_btns {
+  display: block;
+  width: 68px;
+  height: 28px;
+  line-height: 26px;
+  background: #919cae;
+  border-radius: 14px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  color: #fff;
+  font-family: "微软雅黑";
+  cursor: pointer;
+  margin-left: 12px;
+  margin-top: 14px;
+  float: left;
+}
+.tool_bar button.tool_btns:hover {
+  background: #3373e6;
+}
+.tool_bar button.tool_btns i.iconfont {
+  font-size: 12px;
+  margin-right: 7px;
+}
+.tool_bar .time_rad {
+  float: right;
+  height: 100%;
+  line-height: 56px;
+  margin-right: 25px;
+}
+.tool_bar .time_rad .myradio {
+  top: 22px;
+  margin-right: 2px;
+}
+.tool_bar .time_rad span {
+  font-size: 14px;
+  color: #666666;
+}
+.box1 {
+  height: 545px;
+  width: 100%;
+  overflow-x: auto;
+}
+.box1 table tr th:nth-of-type(2) {
+  width: 10px;
+}
+.box1 .mytable .mycheck {
+  top: 5px;
+}
+#newc_box {
+  display: none;
+  width: 1050px;
+  height: 620px;
+  padding: 20px 44px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+#newc_box .cont {
+  width: 100%;
+  height: 100%;
+}
+#newc_box .cont .tit {
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: 1px solid #D2D2D2;
+}
+#newc_box .cont .list {
+  margin: 25px 0;
+}
+#newc_box .cont .list .inputs {
+  height: 44px;
+  line-height: 44px;
+  overflow: hidden;
+}
+#newc_box .cont .list .inputs .inputsin {
+  float: left;
+  height: 100%;
+  width: 420px;
+  overflow: hidden;
+}
+#newc_box .cont .list .inputs .inputsin span {
+  display: inline-block;
+  width: 82px;
+  float: left;
+}
+#newc_box .cont .list .inputs .inputsin input[type="text"] {
+  border: 1px solid #D2D2D2;
+  border-radius: 6px;
+  height: 27px;
+  width: 228px;
+  outline: none;
+  text-indent: 10px;
+}
+#newc_box .cont .list .inputs .inputsin .select_box {
+  margin-top: 8px;
+}
+#newc_box .cont .list .inputs .inputsin .select_box .sel_show {
+  width: 200px;
+}
+#newc_box .cont .list .inputs button {
+  float: left;
+  width: 78px;
+  height: 28px;
+  line-height: 26px;
+  border-radius: 6px;
+}
+#newc_box .cont .list .inputs button.tabs {
+  color: #3373e6;
+  border: 1px solid #6696ec;
+  background: #fff;
+  margin-right: 10px;
+}
+#newc_box .cont .list .inputs button.tabs.active {
+  background: #3373e6;
+  color: #fff;
+}
+#newc_box .cont .list .inputs button.orange,
+#newc_box .cont .list .inputs button.white {
+  float: right;
+  margin-left: 10px;
+}
+#newc_box .cont .list .mytable {
+  max-height: 140px;
+  overflow-y: auto;
+}
+#newc_box .cont .list .inputsb {
+  margin-top: 50px;
+}
+#newc_box .cont .list .inputsb button {
+  margin: 0 auto;
+}

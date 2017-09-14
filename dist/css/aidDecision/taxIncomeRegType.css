@@ -1,0 +1,115 @@
+.box1 {
+  width: 100%;
+  position: relative;
+}
+.box1 #chart1 {
+  height: 460px;
+  width: 49%;
+  float: left;
+  margin-bottom: 80px;
+}
+.box1 .chartCon {
+  position: relative;
+  width: 49%;
+  float: right;
+  margin-bottom: 20px;
+}
+.box1 .chartCon .title {
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  right: 25%;
+  top: 10%;
+}
+.box1 .chartCon .title .subtitle {
+  color: #fe930d;
+  font-weight: bold;
+}
+.box1 .chartCon #chart2 {
+  height: 460px;
+  width: 100%;
+}
+.box1 .chartCon .unit {
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+}
+.box1 .centerLine {
+  height: 350px;
+  width: 2%;
+  float: left;
+  margin: 55px 0;
+}
+.box1 .centerLine .line {
+  width: 1px;
+  background: #dcdcdc;
+  height: 100%;
+  margin: 0 auto;
+}
+.box1 #date-slider {
+  width: 80%;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -40%;
+  margin-bottom: 50px;
+}
+.box2 {
+  margin-top: 12px;
+  width: 100%;
+  position: relative;
+}
+.box2 #chart3 {
+  height: 460px;
+  width: 49%;
+  float: left;
+  margin-bottom: 80px;
+}
+.box2 .chartCon {
+  position: relative;
+  width: 49%;
+  float: right;
+  margin-bottom: 20px;
+}
+.box2 .chartCon .title {
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  right: 25%;
+  top: 10%;
+}
+.box2 .chartCon .title .subtitle {
+  color: #fe930d;
+  font-weight: bold;
+}
+.box2 .chartCon #chart4 {
+  height: 460px;
+  width: 100%;
+}
+.box2 .chartCon .unit {
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+}
+.box2 .centerLine {
+  height: 350px;
+  width: 2%;
+  float: left;
+  margin: 55px 0;
+}
+.box2 .centerLine .line {
+  width: 1px;
+  background: #dcdcdc;
+  height: 100%;
+  margin: 0 auto;
+}
+.box2 #date-slider2 {
+  width: 80%;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -40%;
+  margin-bottom: 50px;
+}

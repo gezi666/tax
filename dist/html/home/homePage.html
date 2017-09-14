@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>涉税大数据平台</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/home/homePage.css">
+</head>
+
+<body data-num="0">
+    <div class="header">
+        <div class="header-box"><a class="header-left" href="../home/homePage.html"><i class="logo"></i><span>涉税大数据平台</span></a>
+            <div class="header-right">
+                <div class="user-info"><i class="user-logo iconfont">&#xe6df;</i><span class="user-name">Admin</span><span class="user-time">2017-08-08 08:00</span></div>
+                <div class="person-set"><i class="person-set-logo iconfont">&#xe66b;</i><span class="person-set-tit">个人设置</span></div><a class="exit" href="../login/login.html">退出</a>
+            </div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-list cf">
+            <li>
+                <div class="shadow"></div><a href="../home/homePage.html"><i class="index"></i><span>首页</span></a>
+            </li>
+            <li>
+                <div class="shadow"></div><a href="../dataAcquisition/acquisitionModule.html"><i class="data-acquisition"></i><span>数据采集</span></a>
+            </li>
+            <li>
+                <div class="shadow"></div><a href="../enterpriseMonitor/companyProfile.html"><i class="enterprise-monitoring"></i><span>企业监测</span></a>
+            </li>
+            <!--li-->
+            <!--	.shadow-->
+            <!--	a(href='')-->
+            <!--		i.risk-warning-->
+            <!--		span 风险预警-->
+            <li>
+                <div class="shadow"></div><a href="../aidDecision/incomeProfile.html"><i class="aid-decision-making"></i><span>辅助决策</span></a>
+            </li>
+            <!--li-->
+            <!--	.shadow-->
+            <!--	a(href='/workflow/flow/loadFlowList')-->
+            <!--		i.enterprise-monitoring-->
+            <!--		span 工作流-->
+        </ul>
+    </div>
+    <div class="container-fluid">
+        <div class="content homecont">
+            <div class="box">
+                <div class="cont_box box1">
+                    <div class="box_tit">
+                        <div class="bt_in">
+                            <p></p>
+                            <h3>税额及预测项目数量</h3>
+                        </div>
+                    </div>
+                    <div id="chart1"></div>
+                </div>
+                <div class="cont_box box2">
+                    <div class="box_tit">
+                        <div class="bt_in">
+                            <p></p>
+                            <h3>减税热力图</h3>
+                        </div>
+                    </div>
+                    <div class="chartCon" id="chart2"></div>
+                </div>
+                <div class="cont_box box3">
+                    <div class="box_tit">
+                        <div class="bt_in">
+                            <p></p>
+                            <h3>内资、外资、港澳台资投资情况</h3>
+                        </div>
+                    </div>
+                    <div class="chartCon" id="chart3"></div>
+                </div>
+                <div class="cont_box box4">
+                    <div class="box_tit">
+                        <div class="bt_in">
+                            <p></p>
+                            <h3>服务业占比</h3>
+                        </div>
+                    </div>
+                    <div class="chartCon" id="chart4"></div>
+                </div>
+                <div class="cont_box box5">
+                    <div class="box_tit">
+                        <div class="bt_in">
+                            <p></p>
+                            <h3>减税人员规模</h3>
+                        </div>
+                    </div>
+                    <div class="chartCon" id="chart5">
+                        <div class="liquidfill">
+                            <div class="liquidfill_chanrt" id="liquidfill1"></div>
+                        </div>
+                        <div class="liquidfill">
+                            <div class="liquidfill_chanrt" id="liquidfill2"></div>
+                        </div>
+                        <div class="liquidfill">
+                            <div class="liquidfill_chanrt" id="liquidfill3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<div class="footer">
+    <p class="footer1">京ICP备00000000000号 版权所有 ***政府</p>
+    <p>Copyright 2016 by Jusfoun.com.All Right Reserved</p>
+</div>
+<script src="./../../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="./../../../libs/echarts/echarts.min.js"></script>
+<script src="./../../../libs/echarts/liquidfill-chart.js"></script>
+<script src="./../../../libs/echarts/echarts-liquidfill.js"></script>
+<script src="./../../../libs/echarts/shandong.js"></script>
+<script src="./../../js/common.js"></script>
+<script src="./../../js/home/homePage.js"></script>
+
+</html>

@@ -1,0 +1,26 @@
+.box1 {
+  width: 100%;
+}
+.box1 #chartCatagary {
+  height: 470px;
+}
+.box2 {
+  margin-top: 12px;
+  width: 100%;
+}
+.box2 #chartArea {
+  height: 550px;
+}
+.seleYear {
+  z-index: 1000;
+  position: absolute;
+  right: 20px;
+  top: 80px;
+}
+.seleYear span {
+  float: left;
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}

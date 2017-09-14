@@ -1,0 +1,68 @@
+.box1 {
+  height: 665px;
+  width: 100%;
+  overflow-x: auto;
+}
+.box1 .inputs {
+  height: 42px;
+  line-height: 42px;
+}
+.box1 .inputs .inputsin {
+  float: left;
+  overflow: hidden;
+  width: 284px;
+}
+.box1 .inputs .inputsin.big {
+  width: 320px;
+}
+.box1 .inputs .inputsin span {
+  display: inline-block;
+  float: left;
+  margin-right: 8px;
+}
+.box1 .inputs .inputsin span.ml {
+  margin-left: 8px;
+}
+.box1 .inputs .inputsin .select_box {
+  margin-top: 6px;
+}
+.box1 .inputs .inputsin .select_box .sel_show.small {
+  width: 156px;
+}
+.box1 .inputs .inputsin .select_box .sel_show.big {
+  width: 220px;
+}
+.box1 .inputs .inputsin input[type="text"] {
+  border: 1px solid #D2D2D2;
+  border-radius: 6px;
+  height: 28px;
+  display: block;
+  float: left;
+  margin-top: 6px;
+  outline: none;
+  text-indent: 10px;
+}
+.box1 .inputs .inputsin input[type="text"].big {
+  width: 185px;
+}
+.box1 .inputs .inputsin input[type="text"].small {
+  width: 80px;
+  font-size: 12px;
+  text-indent: 8px;
+}
+.box1 .inputs .inputsin .mycheck {
+  float: left;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.box1 .inputs button {
+  float: left;
+  margin-top: 6px;
+  margin-left: 25px;
+}
+.box1 .mytable {
+  margin-top: 35px;
+}
+.box1 .mytable .mycheck {
+  top: 5px;
+}

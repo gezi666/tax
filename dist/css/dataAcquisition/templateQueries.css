@@ -1,0 +1,46 @@
+.box1 {
+  height: 665px;
+  width: 100%;
+  overflow-x: auto;
+}
+.box1 .inputs {
+  height: 42px;
+  line-height: 42px;
+}
+.box1 .inputs span {
+  display: inline-block;
+  float: left;
+  width: 80px;
+}
+.box1 .inputs .select_box {
+  margin-top: 6px;
+}
+.box1 .inputs .select_box .sel_show {
+  width: 128px;
+}
+.box1 .inputs input[type="text"] {
+  border: 1px solid #D2D2D2;
+  border-radius: 6px;
+  width: 314px;
+  height: 28px;
+  display: block;
+  float: left;
+  margin-top: 6px;
+  margin-left: 20px;
+  outline: none;
+  text-indent: 10px;
+}
+.box1 .inputs button {
+  float: left;
+  margin-top: 6px;
+  margin-left: 35px;
+}
+.box1 .mytable {
+  margin-top: 35px;
+}
+.box1 .mytable table tr th:nth-of-type(2) {
+  width: 10px;
+}
+.box1 .mytable .mycheck {
+  top: 5px;
+}

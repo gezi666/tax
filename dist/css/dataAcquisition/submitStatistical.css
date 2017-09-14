@@ -1,0 +1,131 @@
+.box1 {
+  height: 442px;
+  width: calc(50% - 6px);
+  margin-right: 12px;
+}
+.box2 {
+  height: 442px;
+  width: calc(50% - 6px);
+}
+.charts {
+  width: 100%;
+  height: 360px;
+}
+.box3 {
+  margin-top: 12px;
+  width: 100%;
+}
+.box3 .box_tit {
+  margin-bottom: 25px;
+}
+.box3 .mytable {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 24px;
+}
+.box3 .mytable .mycheck {
+  top: 5px;
+}
+.box3 .inputs {
+  height: 42px;
+  line-height: 42px;
+}
+.box3 .inputs .inputsin {
+  float: left;
+  overflow: hidden;
+}
+.box3 .inputs .inputsin.is1 {
+  width: 300px;
+}
+.box3 .inputs .inputsin.is2 {
+  width: 380px;
+}
+.box3 .inputs .inputsin.is3 {
+  width: 320px;
+}
+.box3 .inputs .inputsin span {
+  display: inline-block;
+  float: left;
+  margin-right: 8px;
+}
+.box3 .inputs .inputsin span.ml {
+  margin-left: 8px;
+}
+.box3 .inputs .inputsin span.twoword {
+  letter-spacing: 27px;
+  margin-right: -20px;
+}
+.box3 .inputs .inputsin span.twoword.t2 {
+  margin-left: 43px;
+}
+.box3 .inputs .inputsin span.threeword {
+  letter-spacing: 7px;
+  margin-right: 1px;
+}
+.box3 .inputs .inputsin .select_box {
+  margin-top: 6px;
+}
+.box3 .inputs .inputsin .select_box .sel_show.small {
+  width: 50px;
+}
+.box3 .inputs .inputsin .select_box .sel_show.big {
+  width: 156px;
+}
+.box3 .inputs .inputsin .select_box .sel_show.bigger {
+  width: 234px;
+}
+.box3 .inputs .inputsin input[type="text"] {
+  border: 1px solid #D2D2D2;
+  border-radius: 6px;
+  height: 28px;
+  display: block;
+  float: left;
+  margin-top: 6px;
+  outline: none;
+  text-indent: 10px;
+}
+.box3 .inputs .inputsin input[type="text"].big {
+  width: 185px;
+}
+.box3 .inputs .inputsin input[type="text"].bigger {
+  width: 262px;
+}
+.box3 .inputs .inputsin input[type="text"].small {
+  width: 80px;
+  font-size: 12px;
+  text-indent: 8px;
+}
+.box3 .inputs .inputsin .mycheck {
+  float: left;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.box3 .inputs button {
+  float: left;
+  margin-top: 6px;
+  margin-left: 12px;
+}
+.box3 .inputs button.orange {
+  margin-left: 383px;
+}
+.up_down {
+  background: #0084ff;
+  background: linear-gradient(to bottom, #00a8ff, #0084ff);
+  color: #fff;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  margin: -3px 0 0 10px;
+  float: right;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 6px;
+}
+.up_down.active {
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+      transform: scale(1, -1);
+}
+#input_box {
+  display: none;
+}

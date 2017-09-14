@@ -1,0 +1,16 @@
+.ui-corner-all {
+        border-radius: 20px;
+    }
+    
+    .ui-slider-range {
+        border-radius: 3px;
+        background-color: #6fc0f9;
+    }
+    
+    .ui-corner-all:focus {
+        outline: none;
+        opacity: 1!important;
+    }
+     #date-slider_slider{
+        border-radius:20px!important;
+    }

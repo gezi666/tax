@@ -1,0 +1,104 @@
+.box1 {
+  height: 665px;
+  width: 100%;
+  overflow-x: auto;
+}
+.box1 .inputs {
+  height: 42px;
+  line-height: 42px;
+}
+.box1 .inputs span {
+  display: inline-block;
+  float: left;
+  width: 80px;
+}
+.box1 .inputs .select_box {
+  margin-top: 6px;
+}
+.box1 .inputs .select_box .sel_show {
+  width: 200px;
+}
+.box1 .inputs input[type="text"] {
+  border: 1px solid #D2D2D2;
+  border-radius: 6px;
+  width: 228px;
+  height: 28px;
+  display: block;
+  float: left;
+  margin-top: 6px;
+  margin-left: 45px;
+  outline: none;
+  text-indent: 10px;
+}
+.box1 .inputs button {
+  float: left;
+  margin-top: 6px;
+  margin-left: 69px;
+}
+.box1 .mytable {
+  margin-top: 35px;
+}
+.box1 .mytable .mycheck {
+  top: 5px;
+}
+#upload {
+  width: 600px;
+  height: 210px;
+  padding: 20px 44px;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: none;
+}
+#upload .cont {
+  width: 100%;
+  height: 100%;
+}
+#upload .cont .tit {
+  height: 40px;
+  line-height: 40px;
+}
+#upload .cont .tit i {
+  color: #0074f5;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+#upload .cont p {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+#upload .cont .form {
+  line-height: 50px;
+  position: relative;
+}
+#upload .cont .form input[type="text"] {
+  border: 1px solid #D2D2D2;
+  border-radius: 6px;
+  width: 312px;
+  height: 28px;
+  outline: none;
+  text-indent: 10px;
+}
+#upload .cont .form input[type="button"],
+#upload .cont .form input[type="submit"] {
+  height: 28px;
+  width: 78px;
+  border: 1px solid #007cef;
+  border-radius: 6px;
+  color: #007cef;
+  background: #fff;
+  cursor: pointer;
+  font-family: "微软雅黑";
+  margin-left: 15px;
+  outline: none;
+}
+#upload .cont .form input[type="file"] {
+  position: absolute;
+  display: block;
+  top: 12px;
+  left: 0;
+  height: 29px;
+  opacity: 0;
+  width: 412px;
+  background: red;
+}

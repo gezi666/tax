@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>辅助决策</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/aidDecision/taxIncomeRegType.css">
+    <link rel="stylesheet" href="../../../libs/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../../../libs/css/uiSlider.css">
+</head>
+
+<body data-num="0">
+    <div class="header">
+        <div class="header-box"><a class="header-left" href="../home/homePage.html"><i class="logo"></i><span>涉税大数据平台</span></a>
+            <div class="header-right">
+                <div class="user-info"><i class="user-logo iconfont">&#xe6df;</i><span class="user-name">Admin</span><span class="user-time">2017-08-08 08:00</span></div>
+                <div class="person-set"><i class="person-set-logo iconfont">&#xe66b;</i><span class="person-set-tit">个人设置</span></div><a class="exit" href="../login/login.html">退出</a>
+            </div>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-list cf">
+            <li>
+                <div class="shadow"></div><a href="../home/homePage.html"><i class="index"></i><span>首页</span></a>
+            </li>
+            <li>
+                <div class="shadow"></div><a href="../dataAcquisition/acquisitionModule.html"><i class="data-acquisition"></i><span>数据采集</span></a>
+            </li>
+            <li>
+                <div class="shadow"></div><a href="../enterpriseMonitor/companyProfile.html"><i class="enterprise-monitoring"></i><span>企业监测</span></a>
+            </li>
+            <!--li-->
+            <!--	.shadow-->
+            <!--	a(href='')-->
+            <!--		i.risk-warning-->
+            <!--		span 风险预警-->
+            <li>
+                <div class="shadow"></div><a href="../aidDecision/incomeProfile.html"><i class="aid-decision-making"></i><span>辅助决策</span></a>
+            </li>
+            <!--li-->
+            <!--	.shadow-->
+            <!--	a(href='/workflow/flow/loadFlowList')-->
+            <!--		i.enterprise-monitoring-->
+            <!--		span 工作流-->
+        </ul>
+    </div>
+    <div class="container-fluid">
+        <div class="left-bar-wrap">
+            <div class="left-bar">
+                <ul class="big-ul">
+                    <li>
+                        <h3><a href="incomeProfile.html"><i class="icon11"></i><span>收入概况</span></a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="govIncome.html"><i class="icon12"></i><span>政府收入分析</span></a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="financeIncomeMain.html"><i class="icon13"></i><span>财政收入总体分析</span></a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="financeIncomeType.html"><i class="icon14"></i><span>财政收入分类分析</span></a></h3>
+                    </li>
+                    <li>
+                        <h3><a href="taxIncomeTaxType.html"><i class="icon15"></i><span>税收收入分析</span></a></h3>
+                        <ul class="second-ul">
+                            <li><a href="taxIncomeTaxType.html">分税种统计</a></li>
+                            <li><a href="taxIncomeRegType.html">分注册类型统计</a></li>
+                            <li><a href="taxIncomeDeptType.html#bottom">分税务机关统计</a></li>
+                            <li><a href="taxIncomeAreaDivide.html">分行政区划统计</a></li>
+                            <li><a href="taxIncomeIndustryDivide.html#bottom">分行业统计</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box" id="main">
+                <div class="cont_box box1">
+                    <div class="box_tit">
+                        <div class="bt_in">
+                            <p></p>
+                            <h3>税收收入分注册类型</h3>
+                        </div>
+                    </div>
+                    <div class="chartWrap">
+                        <div id="chart1"></div>
+                        <div class="centerLine">
+                            <div class="line"></div>
+                        </div>
+                        <div class="chartCon">
+                            <div class="title">税收收入分注册类型统计<span class="subtitle">Top5</span></div>
+                            <div id="chart2"></div>
+                            <div class="unit">数量(万元)</div>
+                        </div>
+                    </div>
+                    <div id="date-slider"></div>
+                </div>
+                <div class="cont_box box2">
+                    <div class="box_tit">
+                        <div class="bt_in">
+                            <p></p>
+                            <h3 id="bottom">税收收入分税务机关统计</h3>
+                        </div>
+                    </div>
+                    <div class="chartWrap">
+                        <div id="chart3"></div>
+                        <div class="centerLine">
+                            <div class="line"></div>
+                        </div>
+                        <div class="chartCon">
+                            <div class="title">税收收入分税务机关统计<span class="subtitle">Top5</span></div>
+                            <div id="chart4"></div>
+                            <div class="unit">数量(万元)</div>
+                        </div>
+                    </div>
+                    <div id="date-slider2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<div class="footer">
+    <p class="footer1">京ICP备00000000000号 版权所有 ***政府</p>
+    <p>Copyright 2016 by Jusfoun.com.All Right Reserved</p>
+</div>
+<script src="../../../libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="./../../../libs/echarts/echarts.min.js"></script>
+<script src="./../../js/common.js"></script>
+<script src="./../../../libs/js/jquery-ui.min.js"></script>
+<script src="./../../../libs/js/sliderUI.js"></script>
+<script src="./../../js/aidDecision/taxIncomeRegType.js"></script>
+
+</html>

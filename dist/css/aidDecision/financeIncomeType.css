@@ -1,0 +1,39 @@
+.box1,
+.box2 {
+  width: calc(50% - 6px);
+}
+.box1 #chart1,
+.box2 #chart1,
+.box1 #chart2,
+.box2 #chart2 {
+  height: 360px;
+}
+.box3 {
+  margin-top: 12px;
+  width: 100%;
+}
+.box3 #chart3 {
+  height: 360px;
+}
+.box1,
+.box3 {
+  margin-right: 12px;
+}
+.unit {
+  position: absolute;
+  top: 70px;
+  left: 25px;
+}
+.seleYear {
+  z-index: 1000;
+  position: absolute;
+  right: 20px;
+  top: 70px;
+}
+.seleYear span {
+  float: left;
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}

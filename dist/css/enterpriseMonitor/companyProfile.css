@@ -1,0 +1,265 @@
+.hei368 {
+  height: 368px;
+}
+.hei490 {
+  height: 490px;
+}
+.hei519 {
+  height: 519px;
+}
+.txtAlignL {
+  text-align: left;
+}
+.txtAlignC {
+  text-align: center;
+}
+i.goBack {
+  font-size: 24px;
+  cursor: pointer;
+}
+i.goBack:hover {
+  color: #0097E4;
+}
+.box1 {
+  width: 100%;
+}
+.box1 #chart1,
+.box1 #chartIndustry {
+  height: 565px;
+}
+.box2 {
+  width: calc(50% - 6px);
+}
+.chartCon {
+  height: 387px;
+}
+.chartCon2 {
+  height: 565px;
+}
+.chartCon3 {
+  height: 500px;
+}
+.changeType {
+  z-index: 1000;
+  position: absolute;
+  left: 30px;
+  top: 77px;
+}
+.changeType span {
+  float: left;
+  display: inline-block;
+  -ms-display: inline-block;
+  -webkit-display: inline-block;
+  -moz-display: inline-block;
+  box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #6696EC;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #3373e6;
+  background-color: #fff;
+  cursor: pointer;
+}
+.changeType span.active {
+  background-color: #3373E6;
+  color: #fff;
+}
+.seleYear {
+  z-index: 1000;
+  position: absolute;
+  right: 30px;
+  top: 73px;
+}
+.seleYear span {
+  float: left;
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}
+.seleYear2 {
+  top: 10px;
+}
+.keySelect {
+  top: 20px;
+  right: 18px;
+}
+.dividingLine {
+  position: absolute;
+  height: 80%;
+  left: 55%;
+  top: 95px;
+  width: 0;
+  border: 0;
+  border-left: 1px solid #d2d2d2;
+}
+.changeTime {
+  height: 80px;
+}
+.slidCon {
+  width: 85%;
+  margin: 30px auto;
+}
+.slidConFr {
+  width: 85%;
+  margin: 10px auto;
+}
+.frbox {
+  height: 100%;
+  background-color: #fff;
+  padding: 18px;
+}
+.contentfr {
+  width: 100%;
+  height: 100%;
+}
+.rtHtml {
+  min-width: 0;
+  width: auto;
+  min-height: 0;
+  height: auto;
+  background-color: #fff;
+}
+.regInfor {
+  height: 600px;
+}
+.regInfor .mytable {
+  margin-top: 49px;
+}
+.infoLine {
+  margin-top: 24px;
+}
+.infoLine button {
+  display: inline-block;
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #d2d2d2;
+  border-radius: 6px;
+  background: #fff;
+}
+.infoLine button.active {
+  color: #fff;
+  background-color: #ff7f01;
+  background: linear-gradient(to top, #ff7f01, #ffa721);
+}
+.con {
+  display: inline-block;
+  margin-right: 37px;
+}
+.con input[type="text"] {
+  width: 247px;
+  padding-left: 13px;
+  outline: none;
+}
+.con .sel_show {
+  width: 150px;
+}
+.con span {
+  float: left;
+  display: inline-block;
+  margin-right: 8px;
+  padding: 7px;
+  text-align: center;
+  color: #333;
+  font-size: 14;
+}
+.defconL {
+  float: left;
+  width: 30%;
+  height: 756px;
+}
+.defconR {
+  float: right !important;
+  width: calc(70% - 12px);
+  height: 756px;
+}
+.defconR .buttonLine {
+  text-align: center;
+}
+.defconR .buttonLine button {
+  display: inline-block;
+}
+.ltCon {
+  padding: 15px 0;
+}
+.ltCon .lineCon {
+  margin-top: 14px;
+}
+.lbCon {
+  padding: 21px 0;
+}
+.lbCon .query {
+  margin: 45px auto 0;
+}
+.spanCon {
+  width: 30%;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  font-size: 14;
+  color: #333;
+}
+.spanCon .smallSpan {
+  font-size: 12;
+  color: #ccc;
+}
+.spanLast {
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  font-size: 14;
+  color: #333;
+  padding-left: 5px;
+}
+.inputCon {
+  width: 60%;
+  text-align: center;
+}
+.inputCon input[type='text'] {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #d2d2d2;
+  height: 28px;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 28px;
+  padding-left: 13px;
+  outline: none;
+}
+.inputCon .select_box {
+  width: 100%;
+}
+.inputCon .select_box .sel_show {
+  width: calc(100% - 29px);
+}
+.inputCon .selY {
+  width: 45% !important;
+}
+.inputCon .lable {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.liquidfill {
+  width: 33.3%;
+  height: 100%;
+  float: left;
+}
+.liquidfill_chanrt {
+  width: 100%;
+  height: 100%;
+}
+.demoImg {
+  background: url('../../images/imgDemo.png') center no-repeat;
+}
