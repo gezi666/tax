@@ -17,7 +17,6 @@ html body .login_header .login_logo {
   margin: 17px 15px 0 120px;
   width: 46px;
   height: 46px;
-  background: url(../images/login_logo.png) no-repeat;
 }
 html body .login_header span {
   float: left;
