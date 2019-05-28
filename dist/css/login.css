@@ -263,7 +263,8 @@ html body .login_footer .login_footer_box .footer_ifo p {
     float: left;
     width: 80px;
     height: 80px;
-    background: url(../images/erweima.jpg) no-repeat;
+    border: 1px solid #0279d8;
+    border-radius: 5px;
   }
   html body .login_footer .login_footer_box .footer_ifo {
     float: left;
